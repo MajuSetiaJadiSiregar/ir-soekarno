@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 233, 232);
+    height: 40px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    column-gap: 20px;
+}
+
+.box-menu {
+    border: 1px solid red;
+    padding: 4px 8px 4px 8px;
+    border-radius: 8px;
+}
+
+.container {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.heroes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 8px;
+}
+
+.img-ir {
+    border-radius: 8px;
+}
+
+.section-img {
+    display: flex;
+    justify-content: center;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-text p {
+    font-size: 18px;
+    
+}
+
+.section-kehidupan {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.section-kehidupan h4 {
+    text-decoration: underline;
+}
+
+.card {
+    margin-top: 40px;
+    width: 400px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 50px 15px rgb(225, 218, 218);
+}
